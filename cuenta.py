@@ -1,2 +1,3 @@
-for i in range(20):
-    print(i+1)
+name = 'rafael'
+for i in range(len(name)):
+    print name[0:i+1]
